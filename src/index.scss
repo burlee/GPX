@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "LoveloFont";
+    src: url("./ASSETS/LoveloFont/LoveloBlack.otf");
+    src: 
+    url("./ASSETS/LoveloFont/LoveloBlack.otf") format("opentype"),
+    url("./ASSETS/LoveloFont/LoveloLineBold.otf") format("opentype"),
+    url("./ASSETS/LoveloFont/LoveloLineLight.otf") format("opentype"),
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "LoveloFont";
+}
+
+body{
+    background-image: url('./ASSETS/Fotolia_103834708_Subscription_Monthly_M.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    body{ 
+        display: none;
+        background: #FFF;
+    }
+}

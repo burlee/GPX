@@ -1,0 +1,17 @@
+.Hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+    h1{
+        font-family: "LoveloFont", Arial, sans-serif;
+        color: #FFF;
+        text-align: center;
+    }
+    h2{
+        font-family: "LoveloFont", Arial, sans-serif;
+        color: #00cfff;
+        text-align: center;
+    }
+}

@@ -1,0 +1,54 @@
+$first-color: #00cfff;
+$second-color: #FFF;
+
+.HashComponent{
+    div{
+        button{
+            background: $first-color;
+            padding: 10px 15px;
+            border: 3px solid $first-color;
+            color: $second-color;
+            cursor: pointer;
+        }
+        input{
+            border: 3px solid $first-color;
+            padding: 10px;
+            background: transparent;
+            color: $second-color;
+        }
+        ::placeholder{
+            color: $second-color;
+        }
+    }
+    .CountBox{
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+        margin-top: 40px;
+        li{
+            list-style: none;
+            color: #FFF;
+            padding: 10px;
+            transition: .1s all ease-in-out;
+            &:hover{
+                border-left: 3px solid #00cfff;
+            }
+            &:after {
+                content: "* * *";
+            }
+        }
+
+        span{
+            color: $second-color;
+        }
+        button{
+            background: none;
+            color: $second-color;
+            border: none;
+            border-bottom: 1px solid $second-color;
+            padding: 0px;
+        }
+        
+    }
+}
+
